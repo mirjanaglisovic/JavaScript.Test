@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./drugizadatak.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .card {
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 20px;
+        width: 30%;
+      }
+      .author {
+        font-weight: 700;
+        font-size: 20px;
+      }
+      .content {
+        font-weight: 500;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Ovo je stranica za prikazivanje citata</p>
+    <br>
+    <div id="content" style="display: flex; flex-wrap: wrap; gap: 30px"></div>
+    <div id="content" style="display: flex; flex-wrap: wrap; gap: 10px"></div>
+
+    <br>
+    <label for="search">Search quote:</label>
+    <input type="text" name="search" id="search" />
+    <button id="searchClick">Search</button>
+
+    <div id="content" style="display: flex; flex-wrap: wrap; gap: 10px"></div>
+    </style>
+</body>
+</html>
