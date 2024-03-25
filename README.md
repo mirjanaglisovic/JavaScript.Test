@@ -1,2 +1,0 @@
-# JavaScript.Test
-new repository
